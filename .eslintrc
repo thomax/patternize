@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "bengler",
+    "bengler/react",
+    "bengler/legacy-overrides/base",
+    "bengler/legacy-overrides/react"
+  ],
+  "rules": {
+    // todo: remove this eventually so the default rule from eslint-config-bengler is used
+    "object-shorthand": 1
+  }
+}
